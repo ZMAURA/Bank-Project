@@ -8,14 +8,44 @@
     /*align-items: center;*/
 }
 
+
+
+/*2025 update*/
+ul {
+  list-style-type: none;
+}
+
+.text-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.navigation {
+  background-color: #0C0C0C;
+  width: 100%; 
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.mx-10 {
+  margin: 10px 10px;
+}
+
+.navigation-li {
+  cursor: pointer;
+}
+
+.navigation-img {
+  width: 300px;
+}
+
 body {
-    
     background-image: url(/images/Waves.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     height: 600px;
     background-color: black;
 }
@@ -56,7 +86,7 @@ body {
     cursor: pointer; 
     transition: 0.3s; 
     font-size: large;
-    color: whitesmoke;
+    color: #0C0C0C;
 }
 
  .Dark-Button:hover {

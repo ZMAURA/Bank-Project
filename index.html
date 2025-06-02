@@ -9,27 +9,23 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
-    <body>
-        
-        <!-- HEADER LEFT SIDE -->
-        <header id="Top">
-            <ul>
-                <li><a href="index.html"><img src="images/logo.png" alt=""></a></li>
-                <li> <a onclick="smoothScroll()">About</a> </li>
-                <li> <a onclick="smoothScrollTwo()">Contact Us 👋</a> </li>
+      <main>
+        <nav class="navigation flex">
+            <img class="navigation-img" src="images/logo.png" alt="">
+          <div class="flex text-center">
+            <ul class="flex">
+                <li class="navigation-li mx-10">
+                  <a onclick="smoothScroll()">
+                    About</a> 
+                  </li>
+                <li class="navigation-li mx-10"><a onclick="smoothScrollTwo()">Contact Us 👋</a></li>
             </ul>
-        </header>
-
-        <!-- HEADER RIGHT SIDE -->
-        <nav>
-            <a href="Sign-In.html" class="Dark-Button" style="background-color: black; border: 2px solid white" >Sign in</a>
-            <a href="Register.html" class="Dark-Button" style="background-color: white; color: black;">Create account</a>
+            <a href="Sign-In.html" class="Dark-Button mx-10" >Sign In</a>
+            <a href="Register.html" class="Dark-Button">Sign Up</a>
+          </div>
         </nav>
-
-   
-    
-
-
+      </main>
+      <body>
         <div class="container">
             <div class="leftContent">
                 <h1>Welcome <br> To <span> THE FUTURE.</span></h1>
